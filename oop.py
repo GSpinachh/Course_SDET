@@ -29,7 +29,7 @@ class CelestialBody(ABC):
     def mass(self) -> float:
         return self._mass
 
-    @name.setter
+    @mass.setter
     def mass(self, mass: float):
         self._mass = mass
 
